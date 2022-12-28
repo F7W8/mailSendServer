@@ -13,7 +13,7 @@ const sendMail = async(mail_id) => {
     console.log("mail_id : " ,mail_id)
     const mailOptions = {
         from: process.env.MAIL_ID,
-        to: mail_id,
+        to: "yunminwo1211@kookmin.ac.kr",
         subject: "종이 비행기가 도착했습니다!",
         html: `<h1>종이 비행기가 도착했습니다!</h1>
                 <div>
